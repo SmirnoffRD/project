@@ -4,4 +4,4 @@ class Person():
         self.name = name
 
     def __str__(self):
-        return 'Name: {}, Age: {}'.format(self.age, self.name)
+        return 'Info: Name: {}, Age: {}'.format(self.age, self.name)
