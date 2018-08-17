@@ -5,3 +5,6 @@ class Person():
 
     def __str__(self):
         return 'Info: Name: {}, Age: {}'.format(self.age, self.name)
+
+    def __call__(self):
+        return 'Info: Name: {}, Age: {}'.format(self.age, self.name)
